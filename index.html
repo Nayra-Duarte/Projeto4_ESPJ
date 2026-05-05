@@ -10,21 +10,31 @@
 </head>
 <body>
      
-    <header>
-        <h1>Meu App</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="./src/pages/sobre.html">Sobre</a></li>
-            <li><a href="./src/pages/contato.html">Contato</a></li>
-        </ul>
-    </nav>
-    <div>
-        <input type="button" class="cor" onclick="trocar('#3a4eb1')">
-        <input type="button" class="cor" onclick="trocar('#C13A')">
-        <input type="button" class="cor" onclick="trocar('#E6E6FA')">
+    <div id="inicio">
+        <h1 id="titulo">Bem-vindo ao Site</h1>
+        <p id="frase">Com grandes códigos vem grandes bugs</p>
+        <img src="./src/assets/logo.gif" alt="img" id="imgHero">
     </div>
+
+    <header>
+        <img src="./src/assets/logo.gif" alt="logo" id="logo"/>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./src/pages/sobre.html">Sobre</a></li>
+                <li><a href="./src/pages/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div>
+            <input type="button" class="cor" onclick="trocar('#3a4eb1')">
+            <input type="button" class="cor" onclick="trocar('#C13A')">
+            <input type="button" class="cor" onclick="trocar('#E6E6FA')">
+        </div>
+    </header>
+
+    <main>
+        <p id="texto">Produtos em Destaque</p>
+    </main>
 
     <!--JS Externo-->
     <script src="./src/js/script.js"></script>
